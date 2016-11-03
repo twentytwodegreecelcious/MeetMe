@@ -50,7 +50,7 @@ public class UserController {
                 user.setEmail(email);
                 user.setFirstName(name);
                 user.setLastName(surname);
-                DateFormat format = new SimpleDateFormat("dd-MM-yyyy", Locale.ENGLISH);
+                DateFormat format = new SimpleDateFormat("yyyy-dd-MM", Locale.ENGLISH);
                 try {
                     user.setBirthday(format.parse(date));
                 } catch (ParseException exc)  {
@@ -62,7 +62,7 @@ public class UserController {
                 // user.setBirthdayDate(date);
             }
             userDao.save(user);
-            return "Old/index";
+            return "pages/registration";
         }
         else
             return "pages/registration";
