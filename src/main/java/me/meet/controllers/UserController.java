@@ -35,7 +35,7 @@ public class UserController {
             return "pages/success";
         }
         else{
-            return "index";
+            return "Old/index";
         }
     }
     //TODO Finish buttons hiding.
@@ -62,7 +62,7 @@ public class UserController {
                 // user.setBirthdayDate(date);
             }
             userDao.save(user);
-            return "index";
+            return "Old/index";
         }
         else
             return "pages/registration";
@@ -71,6 +71,6 @@ public class UserController {
     @RequestMapping("/logout")
     public String logout(HttpSession httpSession) {
         httpSession.removeAttribute("user");
-        return "index";
+        return "Old/index";
     }
 }

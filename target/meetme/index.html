@@ -54,14 +54,20 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="index.html"><i class="fa fa-camera"></i><br>Афиша</a>
+						<li class="dropdown active">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
+								<i class="fa fa-home"></i><br>Home <span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu dropdown-menu-left" role="menu">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="index-2.html">Home 2</a></li>
+							</ul>
 						</li>
 						<li>
-							<a href="portfolio.html"><i class="fa fa-camera"></i><br>Поиск</a>
+							<a href="portfolio.html"><i class="fa fa-camera"></i><br>Portfolio</a>
 						</li>
 						<li>
-							<a href="services.html"><i class="fa fa-tasks"></i><br>Локации</a>
+							<a href="services.html"><i class="fa fa-tasks"></i><br>Services</a>
 						</li>
 						<li>
 							<a href="about.html"><i class="fa fa-user"></i><br>About</a>
@@ -71,11 +77,10 @@
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
-								<i class="fa fa-paperclip"></i><br>Профиль <span class="caret"></span>
+								<i class="fa fa-paperclip"></i><br>Pages <span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="pricing-tables.html">Зарегистрироваться</a></li>
-								<li><a href="pricing-tables.html">Войти</a></li>
+								<li><a href="pricing-tables.html">Pricing tables</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -91,21 +96,20 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li data-thumb="assets/img/slider/1.jpg">
-                                    <img src="assets/img/slider/1.jpg">
-                                    <div class="flex-caption">
-                                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                                    </div>
+                                    <img src="assets/img/slider/1.jpg" width="604" height="458">
+                                    <div class="flex-caption" style="bottom: 40px;">
+										AN ORIGINAL, LIVE-ACTION ARENA EXPERIENCE, FEATURING THE GREATEST MARVEL SUPER HEROES AND VILLAINS.
+									</div>
                                 </li>
                                 <li data-thumb="assets/img/slider/2.jpg">
-                                    <img src="assets/img/slider/2.jpg">
+                                    <img src="assets/img/slider/2.jpg" style="margin-bottom: 80px;">
                                     <div class="flex-caption">
-                                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-                                    	lobortis nisl ut aliquip ex ea commodo consequat.
+										Croatia Music Week is a week long event that is happening in Split in summer and Zagreb in winter.
                                     </div>
                                 </li>
                                 <li data-thumb="assets/img/slider/3.jpg">
                                     <img src="assets/img/slider/3.jpg">
-                                    <div class="flex-caption">
+                                    <div class="flex-caption" style="bottom: 40px;">
                                     	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
                                     	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
                                     	Lorem ipsum dolor sit amet, consectetur.
@@ -113,7 +117,7 @@
                                 </li>
                                 <li data-thumb="assets/img/slider/4.jpg">
                                     <img src="assets/img/slider/4.jpg">
-                                    <div class="flex-caption">
+                                    <div class="flex-caption" style="bottom: 40px;">
                                     	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
                                     	lobortis nisl ut aliquip ex ea commodo consequat.
                                     </div>
