@@ -24,7 +24,7 @@ public class User {
 
     @Id
     @Column(name = "userid")
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer userId;
 
     @Column(name = "password", length = 50)
