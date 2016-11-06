@@ -31,7 +31,7 @@ public class Event {
     @Column(name = "short_decription", length = 300)
     private String shortDescription;
 
-    @Column(name = "decription", length = "3000")
+    @Column(name = "decription", length = 3000)
     private String description;
 
     @Column(name = "date", length = 10)
@@ -159,13 +159,6 @@ public class Event {
 //    @Column (name = "category")
 //    private
 
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
 
     public Integer getId() {
         return id;
@@ -183,11 +176,4 @@ public class Event {
         this.name = name;
     }
 
-    public Time getTime() {
-        return time;
-    }
-
-    public void setTime(Time time) {
-        this.time = time;
-    }
 }
