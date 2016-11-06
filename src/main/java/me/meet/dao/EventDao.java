@@ -14,9 +14,6 @@ import java.util.List;
 @Repository
 public interface EventDao extends CrudRepository<Event, Long> {
 
-//    List<Event> findEvent
-    //TODO finish Event IdClass
-    //TODO Connect users and events
-
     List<Event> findByNameIgnoreCase(String Name) throws EventNotFoundException;
+
 }
