@@ -27,17 +27,27 @@ header {
 }
 
 .col-md-12 {
-    /*align: center;*/
+   text-align: left;
 }
 
-.col-md-12 label {
-    margin-left: 120px;
-}
 
+.col-md-2 {
+    text-align: center;
+}
+/*.col-md-2 button {
+    text-align: right;
+    margin-right: 100px;
+}*/
+.btn-primary {
+    margin-right: 150px;
+float: right  ;
+
+}
 .input-group {
     margin-bottom: 15px !important;
-    width: 80%;
+    width: 100%;
     margin: auto;
+    text-align: left;
 }
 
 .form-control {
@@ -47,5 +57,5 @@ header {
 
 .panel {
     border: 0.5px solid rgba(0, 0, 255, .5);
-
+    align: left;
 }
