@@ -90,7 +90,10 @@
         </div>
     </nav>
 </header>
-<div>
+<div class="content">
+    <div class="container">
+
+    </div>
 
 </div>
 <footer>
