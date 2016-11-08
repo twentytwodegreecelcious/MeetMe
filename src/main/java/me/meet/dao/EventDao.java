@@ -15,5 +15,5 @@ import java.util.List;
 public interface EventDao extends CrudRepository<Event, Long> {
 
     List<Event> findByNameIgnoreCase(String Name) throws EventNotFoundException;
-
+    List<Event> findByNameIsNotNull() ;
 }
