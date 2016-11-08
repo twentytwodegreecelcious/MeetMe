@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/css/form-elements.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media-queries.css">
+    <link rel="stylesheet" href="assets/css/event.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -91,8 +92,8 @@
     </nav>
 </header>
 <div class="content">
-    <div class="container">
-
+    <div class="image container">
+        <img src="assets/events/1.jpg">
     </div>
 
 </div>
